@@ -4,10 +4,10 @@ $PineColor: #213c28;
 $duckEgg: #d6f1e4;
 $footerColor: #2c2d2c;
 $primaryFont: 'Barlow', sans-serif;
-$primaryHeaderFontSize: 68.8px;
+$primaryHeaderFontSize: 3.4rem;
 $secondaryHeaderFont: 'Offside', cursive;
-$secondaryHeaderFontSize: 42px;
-$smallFontSize: 20px;
+$secondaryHeaderFontSize: 2.1rem;
+$smallFontSize: 1rem;
 
 /* HEADER STYLES */
 h1 {
@@ -39,6 +39,7 @@ nav {
 	background-color: $duckEgg;
 }
 
+/* MAIN STYLES */
 h3 {
 	color: $brightGreen;
 	font-size: $secondaryHeaderFontSize;
@@ -86,6 +87,8 @@ h4 {
 	color: $brightGreen;
 	font-family: $secondaryHeaderFont;
 }
+
+/* FOOTER STYLES */
 
 footer {
 	background-color: $PineColor;
