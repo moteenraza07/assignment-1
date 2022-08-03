@@ -1,0 +1,99 @@
+/* styling on the Header for the desktop vserion */
+
+header {
+	background-image: url(../assets/header-image.png);
+	background-size: cover;
+	min-height: 100vh;
+	padding: 50px 0;
+}
+
+header .headerFlex {
+	display: flex;
+	justify-content: space-between;
+}
+.flex {
+	display: flex;
+}
+h1 {
+	line-height: 63.7px;
+	letter-spacing: 0.8px;
+	width: 550px;
+	padding-bottom: 50px;
+	padding-bottom: 0;
+	position: absolute;
+	bottom: 450px;
+}
+
+h2 {
+	display: flex;
+	width: 40px;
+	padding-top: 15px;
+	position: relative;
+	bottom: 60px;
+}
+.stack {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	position: relative;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: white;
+	margin: 40px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.iconFlex {
+	position: absolute;
+	left: 1800px;
+	font-size: 30px;
+}
+
+.fa-brands {
+	height: 50px;
+	width: 50px;
+}
+
+.fa-bars {
+	display: none;
+	color: white;
+}
+
+/* styling on the Header for the mobile vserion at 454px */
+
+@media (max-width: 454px) {
+	.mobile {
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.burgerIcon {
+		position: relative;
+		left: 300px;
+	}
+	header nav {
+		display: none;
+	}
+
+	.fa-bars {
+		display: block;
+		position: relative;
+		left: 328px;
+		bottom: 120px;
+	}
+
+	h1 {
+		width: 330px;
+	}
+}

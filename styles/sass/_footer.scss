@@ -1,0 +1,127 @@
+/* styling on the footer for the desktop vserion */
+
+footer {
+	height: 40vh;
+	overflow: hidden;
+}
+
+.footerOne {
+	padding-top: 70px;
+}
+input {
+	width: 450px;
+	height: 40px;
+}
+
+h5 {
+	position: relative;
+	top: 20px;
+	font-weight: 100;
+}
+
+.buttonFour {
+	text-transform: uppercase;
+	border: none;
+	width: 140px;
+	height: 45px;
+	line-height: 29px;
+	position: relative;
+	left: 660px;
+	bottom: 42px;
+}
+
+.contactList {
+	position: relative;
+	left: 950px;
+	bottom: 220px;
+}
+
+.infoOne {
+	padding-top: 5px;
+}
+
+.infoTwo {
+	position: relative;
+	bottom: 60px;
+}
+
+.infoThree {
+	position: relative;
+	bottom: 120px;
+}
+
+.footerContainer {
+	position: relative;
+	left: 1300px;
+	bottom: 490px;
+}
+
+a {
+	font-weight: 100;
+}
+
+.footerList {
+	margin: 10px;
+}
+
+.footerTwo {
+	position: relative;
+	bottom: 435px;
+	text-align: center;
+}
+
+/* Footer for Mobile styles 454px */
+
+@media (max-width: 454px) {
+	footer {
+		height: 75vh;
+	}
+
+	.footerOne {
+		width: 90%;
+		text-align: center;
+		position: inherit;
+		margin-bottom: 30px;
+		padding-top: 0;
+	}
+
+	input {
+		width: 350px;
+		text-align: center;
+		color: $footerColor;
+	}
+
+	.buttonFour {
+		position: inherit;
+		margin-left: 155px;
+		margin-bottom: 10px;
+		font-size: 1rem;
+	}
+
+	.mobileFlex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h5 {
+		font-size: 1.5rem;
+	}
+
+	.contactList {
+		position: inherit;
+		margin-bottom: 30px;
+		text-align: left;
+	}
+
+	.footerContainer {
+		position: inherit;
+		margin-left: 50px;
+		margin-top: 45px;
+		text-align: right;
+	}
+
+	.footerTwo {
+		position: relative;
+		margin-top: 265px;
+	}
+}

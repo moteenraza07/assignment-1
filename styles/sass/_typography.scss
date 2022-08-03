@@ -1,0 +1,109 @@
+$brightGreen: #116500;
+$fontColor: #ffffff;
+$PineColor: #213c28;
+$duckEgg: #d6f1e4;
+$footerColor: #2c2d2c;
+$primaryFont: 'Barlow', sans-serif;
+$primaryHeaderFontSize: 68.8px;
+$secondaryHeaderFont: 'Offside', cursive;
+$secondaryHeaderFontSize: 42px;
+$smallFontSize: 20px;
+
+/* HEADER STYLES */
+h1 {
+	font-family: $primaryFont;
+	color: $fontColor;
+	font-size: $primaryHeaderFontSize;
+}
+
+h2 {
+	font-family: $secondaryHeaderFont;
+	color: $fontColor;
+	font-size: $smallFontSize;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+nav {
+	font-family: $primaryFont;
+	font-size: $smallFontSize;
+	color: $fontColor;
+}
+
+.partOne,
+.partThree {
+	background-color: $duckEgg;
+}
+
+h3 {
+	color: $brightGreen;
+	font-size: $secondaryHeaderFontSize;
+	font-family: $secondaryHeaderFont;
+}
+
+.firstParagraph {
+	color: $footerColor;
+	font-size: $smallFontSize;
+	font-family: $primaryFont;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+.buttonOne {
+	background-color: $brightGreen;
+	color: $fontColor;
+	font-family: $secondaryHeaderFont;
+}
+
+.partTwo {
+	background-color: $PineColor;
+}
+
+.secondParagraph {
+	font-family: $primaryFont;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	color: $fontColor;
+	font-size: $smallFontSize;
+}
+
+.blogTitle {
+	color: $fontColor;
+}
+
+.buttonTwo,
+.buttonThree {
+	background-color: $fontColor;
+	color: $brightGreen;
+	font-family: $secondaryHeaderFont;
+}
+
+h4 {
+	color: $brightGreen;
+	font-family: $secondaryHeaderFont;
+}
+
+footer {
+	background-color: $PineColor;
+}
+
+h5,
+.footerContainer {
+	color: $fontColor;
+	font-size: $smallFontSize;
+	font-family: $secondaryHeaderFont;
+}
+
+.buttonFour {
+	background-color: $footerColor;
+	color: $fontColor;
+	font-family: $secondaryHeaderFont;
+}
+
+.footerTwo {
+	background-color: $footerColor;
+}

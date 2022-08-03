@@ -1,0 +1,288 @@
+/* styling on the main section for the desktop vserion */
+
+.partOne {
+	height: 147vh;
+}
+
+.aboutFlex {
+	align-items: flex-start;
+	padding-top: 30px;
+}
+.imgContainer {
+	display: flex;
+	align-items: center;
+	height: 70vh;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+.partOne h3 {
+	margin-top: 0;
+}
+
+img {
+	height: 460px;
+	width: 460px;
+}
+.sideImgContainer {
+	height: 400px;
+	width: 380px;
+}
+.friends {
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	top: 50px;
+}
+
+.moreAboutFlex {
+	display: flex;
+}
+
+.more,
+.firstParagraph,
+.buttonOne {
+	margin-left: 50px;
+}
+
+.buttonOne {
+	height: 45px;
+	width: 140px;
+	position: relative;
+	top: 67px;
+	border: none;
+	text-transform: uppercase;
+	line-height: 29px;
+}
+
+.partTwo {
+	height: 154vh;
+}
+
+.blog {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.blogContainerOne {
+	width: 40%;
+	padding-top: 90px;
+}
+.buttonTwo,
+.buttonThree {
+	height: 45px;
+	width: 140px;
+	border: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+	line-height: 29px;
+}
+
+.babyPanda {
+	height: 700px;
+	width: 960px;
+}
+
+.pandaLeaf {
+	height: 715px;
+	width: 960px;
+}
+
+.blogContainerTwo {
+	width: 30%;
+	padding-top: 90px;
+	position: relative;
+	right: 70px;
+}
+
+.partThree {
+	height: 50vh;
+}
+
+.titleContainer,
+.logoContainer {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h4 {
+	font-size: 35px;
+	position: relative;
+	top: 180px;
+}
+
+.fa-solid {
+	font-size: 45px;
+	padding-left: 35px;
+}
+
+.footerTwo {
+	height: 5vh;
+}
+
+/* styling on the Main section for the Mobile vserion 454px */
+
+@media (max-width: 454px) {
+	section .partOne {
+		height: 250vh;
+	}
+	.mobile {
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.imgContainer {
+		width: 10%;
+	}
+
+	img {
+		height: 210px;
+		width: 210px;
+		margin-left: 10px;
+		position: relative;
+		bottom: 150px;
+		right: 23px;
+	}
+
+	.mobileImg {
+		position: relative;
+		right: 420px;
+		top: 180px;
+		height: 350px;
+		width: 350px;
+	}
+
+	.sideImgContainer {
+		display: none;
+	}
+
+	.more {
+		padding-top: 70px;
+		font-size: 25px;
+	}
+
+	.park {
+		position: relative;
+		font-size: 15px;
+		bottom: 40px;
+		padding-top: 15px;
+	}
+
+	.buttonOne {
+		height: 50px;
+		width: 140px;
+		position: relative;
+		left: 100px;
+		top: 0px;
+		font-size: 20px;
+	}
+
+	.blog {
+		max-width: 500px;
+	}
+
+	.mobileBabyPanda {
+		height: 350px;
+		width: 650px;
+		position: relative;
+		top: 1px;
+		right: 200px;
+	}
+
+	.blogContainerOne {
+		text-align: center;
+	}
+
+	.mobileBlogTitleOne {
+		position: relative;
+		top: 250px;
+		text-align: center;
+		font-size: 25px;
+		left: 30px;
+		width: 400px;
+	}
+
+	.blogMarcoOne {
+		width: 400px;
+		position: relative;
+		top: 230px;
+		left: 30px;
+		font-size: 15px;
+	}
+
+	.buttonTwo {
+		position: relative;
+		top: 220px;
+		left: 140px;
+		height: 50px;
+		width: 140px;
+		font-size: 20px;
+	}
+
+	.mobilePandaLeaf {
+		height: 350px;
+		width: 500px;
+		position: relative;
+		top: 230px;
+	}
+
+	.marco {
+		position: relative;
+		right: 300px;
+		top: 470px;
+		width: 500px;
+		font-size: 25px;
+		padding-top: 20px;
+	}
+
+	.blogMarcoTwo {
+		position: relative;
+		top: 450px;
+		right: 400px;
+		width: 500px;
+		font-size: 15px;
+		padding-top: 20px;
+	}
+
+	.buttonThree {
+		position: relative;
+		top: 450px;
+		right: 240px;
+		height: 50px;
+		width: 140px;
+		font-size: 20px;
+	}
+
+	.titleContainer,
+	.logoContainer {
+		flex-direction: column;
+		text-align: center;
+		position: relative;
+		right: 45px;
+	}
+
+	h4 {
+		position: relative;
+		left: 50px;
+		top: 1px;
+	}
+	.fa-solid {
+		position: relative;
+		left: 30px;
+	}
+	.fa-gift {
+		position: relative;
+		bottom: 430px;
+	}
+
+	.fa-briefcase {
+		position: relative;
+		bottom: 350px;
+	}
+	.fa-calendar-check {
+		position: relative;
+		bottom: 270px;
+	}
+}
